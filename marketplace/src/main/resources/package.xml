@@ -1,0 +1,28 @@
+<!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
+<package type="addon" name="nuxeo-diff-pictures" version="@VERSION@">
+  <title>Nuxeo Diff Pictures</title>
+  <description>
+    <p>This addon adds the "picture diff" functionality to Nuxeo Diff.</p>
+    <p>It requires Nuxeo Diff and Nuxeo DAM.</p>
+  </description>
+  <home-page>http://doc.nuxeo.com/x/7YGo</home-page>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+  <!-- <hotreload-support>false</hotreload-support> -->
+  <!-- <require-terms-and-conditions-acceptance>false</require-terms-and-conditions-acceptance> -->
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>production_ready</production-state>
+  <supported>true</supported>
+  <platforms>
+    <platform>cap-@DISTRIB_VERSION@</platform>
+  </platforms>
+  <!-- Dependencies on other packages -->
+  <dependencies>
+    <package>nuxeo-diff:1.6.3-SNAPSHOT</package>
+    <package>nuxeo-dam</package>
+  </dependencies>
+  <license>LGPL 2.1</license>
+  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
+  <visibility>PUBLIC</visibility>
+</package>
