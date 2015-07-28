@@ -19,7 +19,7 @@
   </platforms>
   <!-- Dependencies on other packages -->
   <dependencies>
-    <package>nuxeo-diff:1.6.3-SNAPSHOT</package>
+    <package>nuxeo-diff</package>
     <package>nuxeo-dam</package>
   </dependencies>
   <license>LGPL 2.1</license>
