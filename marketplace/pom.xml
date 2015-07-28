@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.nuxeo.marketplace.diff.pictures</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -13,8 +13,7 @@
   <name>Nuxeo Diff Pictures Marketplace Package</name>
 
   <properties>
-    <nuxeo.distribution.version>7.3</nuxeo.distribution.version>
-    <nuxeo.diff.version>7.3-NXP-17404-SNAPSHOT</nuxeo.diff.version>
+    <nuxeo.distribution.version>7.4-SNAPSHOT</nuxeo.distribution.version>
   </properties>
 
   <dependencyManagement>
@@ -26,21 +25,6 @@
         <version>${nuxeo.distribution.version}</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.nuxeo.ecm</groupId>
-        <artifactId>nuxeo-diff-core</artifactId>
-        <version>${nuxeo.diff.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.nuxeo.ecm</groupId>
-        <artifactId>nuxeo-diff-content</artifactId>
-        <version>${nuxeo.diff.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.nuxeo.ecm</groupId>
-        <artifactId>nuxeo-diff-pictures</artifactId>
-        <version>${nuxeo.diff.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
