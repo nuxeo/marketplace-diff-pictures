@@ -24,7 +24,7 @@ import org.nuxeo.functionaltests.pages.DocumentBasePage.UserNotConnectedExceptio
  * <p>
  * TODO: Really test Picture diff.
  */
-public class ITPictureDiffTest extends AbstractTest {
+public class ITLoginLogoutTest extends AbstractTest {
 
     @Test
     public void testLoginLogout() throws UserNotConnectedException {
