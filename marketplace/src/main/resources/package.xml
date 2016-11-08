@@ -5,7 +5,7 @@
     <p>This addon adds the "picture diff" functionality to Nuxeo Diff.</p>
     <p>It requires Nuxeo Diff and Nuxeo DAM.</p>
   </description>
-  <home-page>http://doc.nuxeo.com/x/7YGo</home-page>
+  <home-page>https://doc.nuxeo.com/nxdoc/nuxeo-diff-pictures/</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />
