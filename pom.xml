@@ -48,7 +48,7 @@
       <dependency>
         <groupId>org.nuxeo.marketplace.dam</groupId>
         <artifactId>marketplace</artifactId>
-        <classifier>nxr</classifier>
+        <classifier>nxr-jsf</classifier>
         <version>${nuxeo.dam.nxr.version}</version>
         <type>zip</type>
       </dependency>

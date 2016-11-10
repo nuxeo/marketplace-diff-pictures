@@ -38,7 +38,7 @@
       <!-- Diff NXR -->
       <artifact:file key="org.nuxeo.marketplace.diff:ear::zip" />
       <!-- DAM NXR -->
-      <artifact:file key="org.nuxeo.marketplace.dam:marketplace::zip:nxr" />
+      <artifact:file key="org.nuxeo.marketplace.dam:marketplace::zip:nxr-jsf" />
     </copy>
 
     <!-- Nuxeo bundles -->
@@ -71,7 +71,7 @@
            dest="${outdir}/nuxeo-nxr-all" />
     <unzip src="${outdir}/ear-${nuxeo.diff.nxr.version}.zip"
            dest="${outdir}/nuxeo-nxr-all" />
-    <unzip src="${outdir}/marketplace-${nuxeo.dam.nxr.version}-nxr.zip"
+    <unzip src="${outdir}/marketplace-${nuxeo.dam.nxr.version}-nxr-jsf.zip"
            dest="${outdir}/nuxeo-nxr-all" />
     <zip destfile="${outdir}/nuxeo-nxr-all-${nuxeo.distribution.version}.zip"
          basedir="${outdir}/nuxeo-nxr-all" />
