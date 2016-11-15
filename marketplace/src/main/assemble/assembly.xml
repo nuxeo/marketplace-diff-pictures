@@ -69,9 +69,9 @@
            dest="${outdir}/nuxeo-nxr-all" />
     <unzip src="${outdir}/nuxeo-nxr-jsf-ui-${nuxeo.distribution.version}.zip"
            dest="${outdir}/nuxeo-nxr-all" />
-    <unzip src="${outdir}/ear-${nuxeo.diff.nxr.version}.zip"
+    <unzip src="${outdir}/ear-${marketplace.diff.version}.zip"
            dest="${outdir}/nuxeo-nxr-all" />
-    <unzip src="${outdir}/marketplace-${nuxeo.dam.nxr.version}-nxr-jsf.zip"
+    <unzip src="${outdir}/marketplace-${marketplace.dam.version}-nxr-jsf.zip"
            dest="${outdir}/nuxeo-nxr-all" />
     <zip destfile="${outdir}/nuxeo-nxr-all-${nuxeo.distribution.version}.zip"
          basedir="${outdir}/nuxeo-nxr-all" />
