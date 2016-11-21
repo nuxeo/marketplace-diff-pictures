@@ -1,9 +1,7 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
 <package type="addon" name="nuxeo-diff-pictures" version="@VERSION@">
   <title>Nuxeo Diff Pictures</title>
-  <description>
-    <p>This addon adds the "picture diff" functionality to Nuxeo Diff.</p>
-    <p>It requires Nuxeo Diff and Nuxeo DAM.</p>
+  <description>The Nuxeo Diff Pictures addon is an extension of the Nuxeo Diff addon that enables to compare two pictures and display the differences between them.
   </description>
   <home-page>https://doc.nuxeo.com/nxdoc/nuxeo-diff-pictures/</home-page>
   <vendor>Nuxeo</vendor>
