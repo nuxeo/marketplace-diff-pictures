@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>9.2-SNAPSHOT</version>
+    <version>9.2</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.diff.pictures</groupId>
@@ -11,11 +11,11 @@
   <packaging>pom</packaging>
   <name>Nuxeo Diff Pictures Marketplace Parent</name>
   <description>Nuxeo Diff Pictures Marketplace Parent</description>
-  <version>1.2.1-SNAPSHOT</version>
+  <version>1.2.1</version>
 
   <properties>
-    <marketplace.diff.version>1.8.1-SNAPSHOT</marketplace.diff.version>
-    <marketplace.dam.version>6.3.1-SNAPSHOT</marketplace.dam.version>
+    <marketplace.diff.version>1.8.1</marketplace.diff.version>
+    <marketplace.dam.version>6.3.1</marketplace.dam.version>
   </properties>
 
   <modules>
