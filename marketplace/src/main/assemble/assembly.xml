@@ -80,6 +80,8 @@
                 file2="${outdir}/nuxeo-nxr-all-${nuxeo.distribution.version}.zip"
                 includesfile="${outdir}/includes"
                 excludesfile="${outdir}/excludesfile"
+                ignoreContent="true"
+                ignoreContentPattern=".*SNAPSHOT\\.jar$"
                 patternsetid="diff-pictures.versus.all">
     </nx:zipdiff>
     <unzip src="${outdir}/nxr-${maven.project.version}.zip" dest="${outdir}/marketplace/install">
