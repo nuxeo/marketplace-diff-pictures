@@ -145,6 +145,17 @@
     <zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip"
          basedir="${outdir}/marketplace" />
     <artifact:attach file="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip" type="zip" />
+
+    <!-- sleanups -->
+    <delete dir="${outdir}/marketplace" failonerror="false" />
+    <delete dir="${outdir}/nxr" failonerror="false" />
+    <delete dir="${outdir}/nuxeo-nxr-all" failonerror="false" />
+    <delete file="${outdir}/nuxeo-nxr-server-${nuxeo.distribution.version}.zip" failonerror="false" />
+    <delete file="${outdir}/nuxeo-nxr-jsf-ui-${nuxeo.distribution.version}.zip" failonerror="false" />
+    <delete file="${outdir}/ear-${marketplace.diff.version}.zip" failonerror="false" />
+    <delete file="${outdir}/marketplace-${marketplace.dam.version}-nxr-jsf.zip" failonerror="false" />
+    <delete file="${outdir}/nxr-${maven.project.version}.zip" failonerror="false" />
+    <delete file="${outdir}/nuxeo-nxr-all-${nuxeo.distribution.version}.zip" failonerror="false" />
   </target>
 
 </project>
