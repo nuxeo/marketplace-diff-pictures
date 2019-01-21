@@ -11,7 +11,7 @@
   <packaging>pom</packaging>
   <name>Nuxeo Diff Pictures Marketplace Parent</name>
   <description>Nuxeo Diff Pictures Marketplace Parent</description>
-  <version>1.3.3</version>
+  <version>1.3.4-SNAPSHOT</version>
 
   <properties>
     <marketplace.diff.version>1.9.3</marketplace.diff.version>
